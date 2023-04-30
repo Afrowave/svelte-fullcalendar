@@ -2,9 +2,7 @@
 ## interested? [ping me](mailto:me@yogev.dev)
 
 [![Known Vulnerabilities](https://snyk.io/test/github/YogliB/svelte-fullcalendar/badge.svg)](https://snyk.io/test/github/YogliB/svelte-fullcalendar)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 [![install size](https://badgen.net/packagephobia/install/svelte-fullcalendar)](https://packagephobia.now.sh/result?p=svelte-fullcalendar)
 [![npm package version](https://badgen.net/npm/v/svelte-fullcalendar)](https://npm.im/svelte-fullcalendar)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE-OF-CONDUCT.md)
@@ -24,7 +22,7 @@ First install the wrapper and related dependencies:
 
 ```bash
 npm install --save-dev svelte-fullcalendar
-npm install --save-dev @fullcalendar/core @fullcalendar/common
+npm install --save-dev @fullcalendar/core
 ```
 
 Then install any additional FullCalendar plugins you plan to use:
@@ -32,28 +30,6 @@ Then install any additional FullCalendar plugins you plan to use:
 ```bash
 npm install --save-dev @fullcalendar/daygrid
 ```
-
-After that, update your Vite configuration in `vite.config.js` as shown here:
-
-```diff
-import { sveltekit } from '@sveltejs/kit/vite';
-
-/** @type {import('vite').UserConfig} */
-const config = {
--	plugins: [sveltekit()]
-+	plugins: [sveltekit()],
-+	resolve: {
-+		dedupe: ['@fullcalendar/common'],
-+	},
-+	optimizeDeps: {
-+		include: ['@fullcalendar/common'],
-+	}
-};
-
-export default config;
-```
-
-This config is required to workaround the `'isHiddenDay' of undefined` issue upstream [as noted by FullCalendar](https://github.com/fullcalendar/fullcalendar/issues/6370).
 
 ## Usage
 
@@ -214,9 +190,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://vhs.codeberg.page"><img src="https://avatars.githubusercontent.com/u/97140109?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vhs</b></sub></a><br /><a href="https://github.com/YogliB/svelte-fullcalendar/commits?author=vhscom" title="Documentation">📖</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://vhs.codeberg.page"><img src="https://avatars.githubusercontent.com/u/97140109?v=4?s=100" width="100px;" alt="vhs"/><br /><sub><b>vhs</b></sub></a><br /><a href="https://github.com/YogliB/svelte-fullcalendar/commits?author=vhscom" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.benmccann.com"><img src="https://avatars.githubusercontent.com/u/322311?v=4?s=100" width="100px;" alt="Ben McCann"/><br /><sub><b>Ben McCann</b></sub></a><br /><a href="https://github.com/YogliB/svelte-fullcalendar/commits?author=benmccann" title="Documentation">📖</a> <a href="https://github.com/YogliB/svelte-fullcalendar/commits?author=benmccann" title="Code">💻</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
