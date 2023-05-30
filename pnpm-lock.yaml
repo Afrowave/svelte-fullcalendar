@@ -120,14 +120,14 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: true
 
-  /@babel/core@7.21.5:
-    resolution: {integrity: sha512-9M398B/QH5DlfCOTKDZT1ozXr0x8uBEeFd+dJraGUZGiaNpGCDVGCc14hZexsMblw3XxltJ+6kSvogp9J+5a9g==}
+  /@babel/core@7.22.1:
+    resolution: {integrity: sha512-Hkqu7J4ynysSXxmAahpN1jjRwVJ+NdpraFLIWflgjpVob3KNyK3/tIUc7Q7szed8WMp0JNa7Qtd1E9Oo22F9gA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@ampproject/remapping': 2.2.1
       '@babel/code-frame': 7.21.4
       '@babel/generator': 7.22.3
-      '@babel/helper-compilation-targets': 7.22.1(@babel/core@7.21.5)
+      '@babel/helper-compilation-targets': 7.22.1(@babel/core@7.22.1)
       '@babel/helper-module-transforms': 7.22.1
       '@babel/helpers': 7.22.3
       '@babel/parser': 7.22.4
@@ -167,14 +167,14 @@ packages:
       jsesc: 2.5.2
     dev: true
 
-  /@babel/helper-compilation-targets@7.22.1(@babel/core@7.21.5):
+  /@babel/helper-compilation-targets@7.22.1(@babel/core@7.22.1):
     resolution: {integrity: sha512-Rqx13UM3yVB5q0D/KwQ8+SPfX/+Rnsy1Lw1k/UwOC4KC6qrzIQoY3lYnBu5EHKBlEHHcj0M0W8ltPSkD8rqfsQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/compat-data': 7.22.3
-      '@babel/core': 7.21.5
+      '@babel/core': 7.22.1
       '@babel/helper-validator-option': 7.21.0
       browserslist: 4.21.7
       lru-cache: 5.1.1

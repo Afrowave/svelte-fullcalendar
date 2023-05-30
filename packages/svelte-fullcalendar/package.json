@@ -32,7 +32,7 @@
 		"@fullcalendar/interaction": "^6.1.8"
 	},
 	"peerDependencies": {
-		"@fullcalendar/core": "^6.0.0"
+		"@fullcalendar/core": "^6.1.8"
 	},
 	"repository": {
 		"type": "git",
@@ -40,5 +40,5 @@
 	},
 	"svelte": "index.js",
 	"type": "module",
-	"version": "2.0.0-beta.0"
+	"version": "2.0.0-beta.1"
 }
