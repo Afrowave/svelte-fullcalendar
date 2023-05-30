@@ -9,7 +9,7 @@
 	},
 	"description": "A Svelte component wrapper around FullCalendar",
 	"devDependencies": {
-		"@fullcalendar/core": "^6.0.0",
+		"@fullcalendar/core": "^6.1.8",
 		"svelte": "3.58.0"
 	},
 	"exports": {
@@ -29,7 +29,7 @@
 	"license": "MIT",
 	"name": "svelte-fullcalendar",
 	"optionalDependencies": {
-		"@fullcalendar/interaction": "^6.0.0"
+		"@fullcalendar/interaction": "^6.1.8"
 	},
 	"peerDependencies": {
 		"@fullcalendar/core": "^6.0.0"
