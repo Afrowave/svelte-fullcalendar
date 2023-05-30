@@ -15,11 +15,11 @@ importers:
         specifier: 7.21.3
         version: 7.21.3(@babel/core@7.21.5)(eslint@8.39.0)
       '@testing-library/cypress':
-        specifier: 8.0.7
-        version: 8.0.7(cypress@12.13.0)
+        specifier: 9.0.0
+        version: 9.0.0(cypress@9.7.0)
       cypress:
-        specifier: 12.13.0
-        version: 12.13.0
+        specifier: 9.7.0
+        version: 9.7.0
       date-fns:
         specifier: 2.30.0
         version: 2.30.0
@@ -812,15 +812,15 @@ packages:
       - supports-color
     dev: true
 
-  /@testing-library/cypress@8.0.7(cypress@12.13.0):
-    resolution: {integrity: sha512-3HTV725rOS+YHve/gD9coZp/UcPK5xhr4H0GMnq/ni6USdtzVtSOG9WBFtd8rYnrXk8rrGD+0toRFYouJNIG0Q==}
+  /@testing-library/cypress@9.0.0(cypress@9.7.0):
+    resolution: {integrity: sha512-c1XiCGeHGGTWn0LAU12sFUfoX3qfId5gcSE2yHode+vsyHDWraxDPALjVnHd4/Fa3j4KBcc5k++Ccy6A9qnkMA==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
-      cypress: ^2.1.0 || ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0
+      cypress: ^12.0.0
     dependencies:
       '@babel/runtime': 7.22.3
       '@testing-library/dom': 8.20.0
-      cypress: 12.13.0
+      cypress: 9.7.0
     dev: true
 
   /@testing-library/dom@8.20.0:
@@ -1214,8 +1214,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /commander@6.2.1:
-    resolution: {integrity: sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==}
+  /commander@5.1.0:
+    resolution: {integrity: sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==}
     engines: {node: '>= 6'}
     dev: true
 
@@ -1250,9 +1250,9 @@ packages:
       which: 2.0.2
     dev: true
 
-  /cypress@12.13.0:
-    resolution: {integrity: sha512-QJlSmdPk+53Zhy69woJMySZQJoWfEWun3X5OOenGsXjRPVfByVTHorxNehbzhZrEzH9RDUDqVcck0ahtlS+N/Q==}
-    engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
+  /cypress@9.7.0:
+    resolution: {integrity: sha512-+1EE1nuuuwIt/N1KXRR2iWHU+OiIt7H28jJDyyI4tiUftId/DrXYEwoDa5+kH2pki1zxnA0r6HrUGHV5eLbF5Q==}
+    engines: {node: '>=12.0.0'}
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -1270,12 +1270,12 @@ packages:
       check-more-types: 2.24.0
       cli-cursor: 3.1.0
       cli-table3: 0.6.3
-      commander: 6.2.1
+      commander: 5.1.0
       common-tags: 1.8.2
       dayjs: 1.11.7
       debug: 4.3.4(supports-color@8.1.1)
       enquirer: 2.3.6
-      eventemitter2: 6.4.7
+      eventemitter2: 6.4.9
       execa: 4.1.0
       executable: 4.1.1
       extract-zip: 2.0.1(supports-color@8.1.1)
@@ -1659,8 +1659,8 @@ packages:
       through: 2.3.8
     dev: true
 
-  /eventemitter2@6.4.7:
-    resolution: {integrity: sha512-tYUSVOGeQPKt/eC1ABfhHy5Xd96N3oIijJvN3O9+TsC28T5V9yX9oEfEK5faP0EFSNVOG97qtAS68GBrQB2hDg==}
+  /eventemitter2@6.4.9:
+    resolution: {integrity: sha512-JEPTiaOt9f04oa6NOkc4aH+nVp5I3wEjpHbIPqfgCdD5v5bUzy7xQqwcVO2aDQgOWhI28da57HksMrzK9HlRxg==}
     dev: true
 
   /execa@4.1.0:
