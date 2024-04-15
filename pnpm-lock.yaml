@@ -11,7 +11,7 @@ importers:
       date-fns: 2.30.0
       eslint: 8.49.0
       eslint-config-prettier: 9.0.0
-      eslint-plugin-cypress: 2.14.0
+      eslint-plugin-cypress: 2.15.2
       eslint-plugin-svelte3: 4.0.0
       husky: 8.0.3
       lint-staged: 14.0.1
@@ -27,7 +27,7 @@ importers:
       date-fns: 2.30.0
       eslint: 8.49.0
       eslint-config-prettier: 9.0.0_eslint@8.49.0
-      eslint-plugin-cypress: 2.14.0_eslint@8.49.0
+      eslint-plugin-cypress: 2.15.2_eslint@8.49.0
       eslint-plugin-svelte3: 4.0.0_eslint@8.49.0+svelte@4.2.0
       husky: 8.0.3
       lint-staged: 14.0.1
@@ -1532,8 +1532,8 @@ packages:
       eslint: 8.49.0
     dev: true
 
-  /eslint-plugin-cypress/2.14.0_eslint@8.49.0:
-    resolution: {integrity: sha512-eW6tv7iIg7xujleAJX4Ujm649Bf5jweqa4ObPEIuueYRyLZt7qXGWhCY/n4bfeFW/j6nQZwbIBHKZt6EKcL/cg==}
+  /eslint-plugin-cypress/2.15.2_eslint@8.49.0:
+    resolution: {integrity: sha512-CtcFEQTDKyftpI22FVGpx8bkpKyYXBlNge6zSo0pl5/qJvBAnzaD76Vu2AsP16d6mTj478Ldn2mhgrWV+Xr0vQ==}
     peerDependencies:
       eslint: '>= 3.2.1'
     dependencies:
